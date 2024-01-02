@@ -2,19 +2,19 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '613ee3afda7b406c9cac7ba2965502cc',
+  rootNotionPageId: '79d7cfe69ad740f5a41ad4411517d99d',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Chaodi Tang Blog World',
+  name: 'F10wers13eiCheng Blog World',
   domain: 'chaodit.tech',
-  author: 'Chaodi Tang',
+  author: 'F10wers13eiCheng',
 
   // open graph metadata (optional)
-  description: 'My Blogs.',
+  description: 'My Blogs',
 
   // social usernames (optional)
   twitter: 'transitive_bs',
@@ -31,7 +31,7 @@ export default siteConfig({
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
-  isPreviewImageSupportEnabled: true,
+  isPreviewImageSupportEnabled: false,
 
   // whether or not redis is enabled for caching generated preview images (optional)
   // NOTE: if you enable redis, you need to set the `REDIS_HOST` and `REDIS_PASSWORD`
